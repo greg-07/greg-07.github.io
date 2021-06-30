@@ -1,0 +1,211 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+       <!-- poniżej nazwa karty w przegladarce===== -->
+        <title>Challenge: Nauka HTML</title>
+       <!-- poniżej coś niewidocznego wyjaśnienie potem==== -->
+<div style="visibility: hidden">to już CSS </div>
+       
+      <!-- Tu już CSS, kolor wszystkich nagówków h2 i kolor tła --> 
+      
+       <!-- ===================================================== --> 
+      <style>
+     
+		h2 {
+            color: rgb(0, 232, 15);
+        }   
+		
+        ul {
+            color: rgb(100, 22, 150);
+        }   
+        ol {
+            color: red;
+        }   
+        body {
+            background-color: rgb(97, 250, 255);
+        }
+        #kolor1 {
+            background-color: yellow; color: blue
+        }
+        #kolor2 {
+            background-color: magenta;
+        }
+        .css {background-color: beige; color: brown;
+        }
+        </style>
+      
+      <!-- ===================================================== -->
+      
+        <meta charset="utf-8">
+       <!-- powyżej kodowanie (włącz powyższe kodowanie w nodepad++ aby
+były polskie znaki============= -->
+   
+  </head>
+    <body>
+    <h1> POCZĄTEK PRZYGODY Z HTML, CSS I JS</h1>
+    <p> 
+    </p>
+    <h2>HTML</h2>
+    
+    <p> <strong>HTML pozwala opisać <em>strukturę</em> informacji zawartych wewnątrz strony internetowej</strong>, <U>nadając</U> odpowiednie znaczenie <em>semantyczne</em> poszczególnym fragmentom tekstu – formując hiperłącza, akapity, nagłówki, listy – oraz osadza w tekście dokumentu obiekty plikowe np. multimedia bądź elementy baz danych np. interaktywne formularze danych.<br>
+    
+
+HTML umożliwia określenie wyglądu dokumentu w przeglądarce internetowej. Do szczegółowego opisu formatowania akapitów, nagłówków, użytych czcionek i kolorów, zalecane jest wykorzystywanie <strong>kaskadowych arkuszy</strong> stylów.
+      </p>
+      
+      <!-- link do zewnętrznej strony otwierany w tej samej karcie== -->
+      <a href="http://home.web.cern.ch/topics/birth-web">Read more about the history of HTML</a> 
+      
+      <!-- link do zewnętrznej strony otwierany w nowej i obrazek (z opisem) jako link== -->
+      <br>  
+     <a target="_blank" href="http://home.web.cern.ch/topics/birth-web">Read more about the history of HTML
+      <p>
+        <img src="https://www.kasandbox.org/programming-images/misc/tim-berners-lee-webpage.png" width="300">
+        <br>Image courtesy CERN    
+        </p>
+      </a> 
+      
+      
+      <!-- obrazek (z opisem) jako link otwierany w nowej karcie== -->
+      <a target="_blank" href="http://home.web.cern.ch/topics/birth-web"><img src="https://www.kasandbox.org/programming-images/misc/tim-berners-lee-webpage.png" width="300">
+        <br>Image courtesy CERN
+            </a> 
+      
+        
+              
+      
+      <h3 ID="kolor1">Wyliczanie nieuporządkowane</h3>
+      <ul>
+        <li>They're furry!</li>
+        <li>Great listeners!</li>
+        <li>Eat all your leftover carrots!</li>
+    </ul>
+    
+    <h3 ID="kolor2">Wyliczanie uporządowane</h3>
+    
+    <ol>
+        <li>Bugs bunny</li>
+        <li>Easter Bunny</li>
+        <li>Thumper</li>
+    </ol>
+      
+      <h3>Wstawienie obrazka</h3>
+      <img src="https://www.kasandbox.org/programming-images/animals/rabbit.png" alt="Rabbit with lop ears in barn (opis jeśli zdjęcie się nie załaduje" width="170"> 
+      
+      
+    <h2>CSS</h2>
+    <p class="css"> CSS is the language we use to style an HTML document.
+
+CSS describes how HTML elements should be displayed.
+
+This tutorial will teach you CSS from basic to advanced.
+    </p>
+      
+      <p class="css">
+        CSS stands for Cascading Style Sheets
+CSS describes how HTML elements are to be displayed on screen, paper, or in other media
+CSS saves a lot of work. It can control the layout of multiple web pages all at once
+External stylesheets are stored in CSS files
+      </p>
+      
+    <h4>Zanim JavaScript - pobawmy się z CSS</h4>
+      
+      
+   <!-- wyliczanie nieuporządkowane jako na tej stronie po ID== -->   
+      <ul>
+            <li><a href="#web-history">History of the web</a></li>
+            <li><a href="#html-history">History of HTML versions</a></li>
+        </ul>
+        <p>Tim Berners-Lee invented the first browser at CERN, to enable researchers to share their research with eachother.</p>
+    
+        <p>
+        <img src="https://www.kasandbox.org/programming-images/misc/tim-berners-lee-webpage.png" width="200">
+        <br>Image courtesy CERN    
+        </p>
+        
+        <h3 id="web-history">History of the web</h3>
+        <ul>
+            <li><strong>1989: The motivation</strong>
+                <p>CERN Physicist Tim Berners-Lee needed “a pool of information which could grow and evolve with the organisation and the projects it describes.”
+                <br>
+                <a href="http://www.w3.org/History/1989/proposal.html">Read the original proposal</a>
+                </p>
+            </li>
+            <li>
+                <strong>1989: The invention</strong>
+                <p>Berners-Lee invented the World Wide Web, HTTP, and wrote the <a href="http://www.w3.org/History/19921103-hypertext/hypertext/WWW/TheProject.html">first HTML page</a>.
+                </p>
+            </li>
+            <li>
+                <strong>1993: It starts small</strong>
+                <p>Berners-Lee presented the WWW at the IETF conference in a small BoF session, which is mentioned in the <a href="http://www.ietf.org/proceedings/26.pdf">proceedings</a>.</p>
+            </li>
+            <li>
+                <strong>1993: It gets bigger!</strong>
+                <p>NCSA creates the free <a href="http://www.ncsa.illinois.edu/enabling">Mosaic" browser</a>, and adds bookmarks, images, and a better UI.</p>
+            </li>
+            <li>
+                <strong>1993+: The explosion</strong>
+                <p>The number of domains increased as the internet started being <a href="http://en.wikipedia.org/wiki/History_of_the_Internet#Opening_the_network_to_commerce">used by commerce</a>.</p>
+            </li>
+            <li><strong>1994: The World Wide Web Consortium</strong>
+                <p>Berners-Lee founds the W3C to standardize HTML for all browsers to follow.</p>
+            </li>
+        </ul>
+        
+        <h3 id="html-history">History of HTML versions</h3>
+        <ol>
+            <li>1995: HTML 2.0</li>
+            <li>1997 (Jan): HTML 3.2</li>
+            <li>1997 (Dec): HTML 4.0</li>
+            <li>1999: HTML 4.01</li>
+            <li>2004: "HTML5" is proposed by WHATWG, a new committee</li>
+            <li>2008: HTML5 is adopted by W3C as a standard.</li>
+        </ol>
+        <p>Read more on <a href="http://en.wikipedia.org/wiki/HTML#HTML_versions_timeline">Wikipedia</a></p>
+      
+      <h3>Tabele HTML</h3>
+      
+      <h4>My Pets</h4>
+        
+        <ul>
+            <li>Black & white (rabbit)</li>
+            <li>Daemon (cat)</li>
+            <li>Angel (cat)</li>
+        </ul>
+      
+     <table> <!-- tabela= -->
+            <thead> <!-- nagłówek tabeli= -->
+                <tr> <!-- wiersz tabeli (akurat w nagłówku)= -->
+                    <th>Imię zwierzaka</th> <!-- komórka nagłówka tabeli= -->
+                    <th>Gatunek</th>
+                    <th>Kolor</th>
+                </tr>
+            </thead>
+            <tbody> <!-- wiersz z danymi= -->
+                <tr> <!-- wiersz tabeli= -->
+                    <td>Czarno-Biały</td> <!-- komórka danych= -->
+                    <td>królik</td>
+                    <td>czarnobiały</td>
+                </tr>
+                <tr>
+                    <td>Demon</td>
+                    <td>kot</td>
+                    <td>czarny</td>
+                </tr>
+                <tr>
+                    <td>Anioł</td>
+                    <td>kot</td>
+                    <td>rudy</td>
+                </tr>
+            </tbody>
+        </table>
+      
+     <h2>JavaScripts</h2>
+    <p> 
+    </p>
+    
+    
+    </body>
+</html>
+
